@@ -25,7 +25,7 @@ export function FacialAnalysisChartGroup({
 
   return (
     <>
-      <div className="flex w-[min(30vw,118px)] flex-col gap-1.5 sm:w-[140px] sm:gap-2 md:w-[250px] lg:hidden">
+      <div className="flex flex-col gap-1.5 w-[140px] sm:gap-2 md:w-[250px] lg:hidden">
         {mobileCharts.map((chart) => (
           <FacialAnalysisChartPanel key={chart.src} {...chart} />
         ))}

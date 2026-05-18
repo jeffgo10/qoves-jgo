@@ -36,14 +36,14 @@ export function IntroducingVideoSection() {
               </p>
 
               <div className="flex flex-col justify-center md:max-w-[520px]">
-                <h2 className="text-balance text-3xl font-normal leading-tight tracking-tight text-white sm:text-4xl md:text-5xl md:leading-[1.1]">
+                <h2 className="text-balance text-3xl font-normal leading-tight tracking-tight text-white text-center lg:text-left sm:text-4xl md:text-5xl md:leading-[1.1]">
                   Will analyzing my face
                   <br />
                   <span className="text-white/85">
                     make me insecure?
                   </span>
                 </h2>
-                <p className="mt-5 max-w-[420px] text-pretty text-base leading-relaxed text-white/85 sm:text-[16px]">
+                <p className="mt-5 max-w-[420px] text-pretty text-base leading-relaxed text-white/85 text-center lg:text-left sm:text-[16px]">
                   Most insecurity comes from uncertainty—not knowing if your
                   concerns are real or imagined. When you&apos;re guessing about
                   your appearance, your mind often makes things seem worse than they
